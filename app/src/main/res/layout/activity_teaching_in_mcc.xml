@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_8"
+    tools:context=".teaching_in_mcc"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:text="Teaching in MCC"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ID"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="36dp"
+            android:hint="ID"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+            android:id="@+id/Date_of_Joining_the_Institution_MCC_1st_Time_From"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Date of Joining the Institution MCC 1st Time From"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ID"
+            tools:ignore="UnknownId" />
+
+        <EditText
+            android:id="@+id/Date_of_Joining_the_Institution_MCC_1st_Time_To"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Date of Joining the Institution MCC 1st Time To"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_of_Joining_the_Institution_MCC_1st_Time_From"
+            tools:ignore="UnknownId" />
+
+        <EditText
+            android:id="@+id/Date_of_Joining_the_Institution_MCC_2nd_Time_From"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Date of Joining the Institution MCC 1st Time From"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_of_Joining_the_Institution_MCC_1st_Time_To" />
+        <EditText
+            android:id="@+id/Date_of_Joining_the_Institution_MCC_2nd_Time_To"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Date of Joining the Institution MCC 1st Time To"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_of_Joining_the_Institution_MCC_2nd_Time_From" />
+        <EditText
+            android:id="@+id/Date_of_Joining_the_Institution_MCC_3rd_Time_From"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Date of Joining the Institution MCC 3rd Time From"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_of_Joining_the_Institution_MCC_2nd_Time_To" />
+        <EditText
+            android:id="@+id/Date_of_Joining_the_Institution_MCC_3rd_Time_To"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Date of Joining the Institution MCC 3rd Time To"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_of_Joining_the_Institution_MCC_3rd_Time_From" />
+        <EditText
+            android:id="@+id/Total_Temporary_Experience_Teaching_in_MCC_Months"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Total Temporary Experience Teaching in MCC(Months)"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_of_Joining_the_Institution_MCC_3rd_Time_To" />
+        <EditText
+            android:id="@+id/Date_of_Joining_the_Institution_MCC_Permanent_Aided_SFS"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Date of Joining the Institution MCC(Permanent- Aided and SFS)"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Total_Temporary_Experience_Teaching_in_MCC_Months" />
+        <EditText
+            android:id="@+id/Total_Experience_Teaching_in_MCC_Months"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="Total Experience Teaching in MCC(Months)"
+            android:paddingLeft="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Date_of_Joining_the_Institution_MCC_Permanent_Aided_SFS" />
+
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1236dp"
+            android:backgroundTint="#642926"
+            android:text="Login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

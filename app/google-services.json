@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "811336363121",
+    "project_id": "iqsc-6c887",
+    "storage_bucket": "iqsc-6c887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811336363121:android:a2434e30b74f89da367fd0",
+        "android_client_info": {
+          "package_name": "com.example.iqsc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh1SbGuWDv5PYUJ4u4Yn76eFYhLb89IqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
